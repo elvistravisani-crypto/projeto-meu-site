@@ -378,6 +378,10 @@ a:hover {
         border:snow;
     
 }
+#login
+{
+     background-color: rgba(146, 35, 35, 0.242);
+}
 
 
 
@@ -473,6 +477,7 @@ a:hover {
 #login
 {
     padding-top: 100px;
+
 }
     
  
