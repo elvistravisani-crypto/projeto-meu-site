@@ -393,7 +393,12 @@ a:hover {
 /* Método "Mobile First" */
 
 /* Padrão, iPhone Retina */
-@media (min-width: 320px) {}
+@media (min-width: 320px) {
+    #comprar input
+    {
+        margin-bottom: 15px;
+    }
+}
 
 /* Dispositivos Pequenos, Smartphones */
 @media (min-width: 375px) 
