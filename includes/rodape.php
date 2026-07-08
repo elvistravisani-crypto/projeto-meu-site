@@ -1,179 +1,4 @@
-<!doctype html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Capivaras Hardwares</title>
-    <!-- Autor -->
-    <meta name="author" content="Elvis Travisani" />
-    <!-- Link do Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- CDN fontaWere Icones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- ADICIONAR FONTE AQUI -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
-        rel="stylesheet" />
-    <!-- Link do meu arquivo CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-
-<body>
-    <!--<<<<<<<<<<<<<<<< Inicio Cabeçalho >>>>>>>>>>>>>>>-->
-    <header id="cabecalho">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <!-- Logo -->
-            <div class="logo">
-                <a href="index.html">
-                    <img src="assets/img/logo/logo_site.PNG" alt="logo" />
-                </a>
-            </div>
-
-            <!-- icone de img para o MOBILE-->
-            <div class="icons icons-mobile">
-                <a href="#">
-                    <img src="assets/img/icones/icons8-usuário-masculino-94.png" alt="Login" />
-                </a>
-                <a href="#">
-                    <img src="assets/img/icones/icons8-carrinho-de-compras-94.png" alt="Carrinho de compras" />
-                </a>
-            </div>
-
-            <!-- Input de Pesquisa -->
-            <form class="d-flex mx-auto" role="search">
-                <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Pesquisar" />
-                <button class="btn btn-outline-light" type="submit">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-            </form>
-
-            <!-- Botão Hamburger -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
-                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Links do Menu -->
-            <div class="collapse navbar-collapse" id="menuPrincipal">
-                <!-- icone de img para o DESKTOP-->
-                <div class="icons icons-desktop">
-                    <a href="#">
-                        <img src="assets/img/icones/icons8-usuário-masculino-94.png" alt="Login" />
-                    </a>
-                    <a href="#">
-                        <img src="assets/img/icones/icons8-carrinho-de-compras-94.png" alt="Carrinho de compras" />
-                    </a>
-                </div>
-
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                            Produtos
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="cpu.html">CPU</a></li>
-                            <li><a class="dropdown-item" href="#">Placa Gráfica</a></li>
-                            <li><a class="dropdown-item" href="#">Motherboard</a></li>
-                            <li><a class="dropdown-item" href="#">Memória RAM</a></li>
-                            <li><a class="dropdown-item" href="#">SSD/HD</a></li>
-                            <li><a class="dropdown-item" href="#">Fonte</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <!--<<<<<<<<<<<<<<<< Final Cabeçalho >>>>>>>>>>>>>>>-->
-
-    <main id="login">
-        <div class="container gy-5">
-            <div row>
-                <div class="col-12 col-md-6 mb">
-                    <h2>Entre na sua conta</h2>
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control form-control-sm" id="floatingInput"
-                            placeholder="name@example.com">
-                        <label for="floatingInput">Endereço de email</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                        <label for="floatingPassword">Senha</label>
-                    </div>
-
-
-                </div>
-                <div class="col-12 col-md-6 ">
-                    <h2>Cadastre-se</h2>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingUsername" placeholder="Username">
-                        <label for="floatingUsername">Nome de usuário</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
-                        <label for="floatingEmail">Email</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                        <label for="floatingPassword">Senha</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="floatingConfirmPassword" placeholder="Confirm Password">
-                        <label for="floatingConfirmPassword">Confirmar Senha</label>
-                    </div>
-                    
-
-                </div>
-                <div class="col-12 d-flex justify-content-center gap-3 mb-5">
-                    <button type="button " class="btn btn-success">Cadastrar</button>
-                </div>
-                    
-                
-            </div>
-        </div>
-    </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer id="rodape">
+ <footer id="rodape">
         <div class="container">
             <div class="row align-items-start">
                 <div class="col-12 col-md-3">
@@ -212,9 +37,7 @@
                         <h5>Nos acompanhe nas redes sociais</h5>
                         <!-- SVG redes sociais -->
                         <!-- facebook -->
-                        <?xml version="1.0" ?>
-                        <!DOCTYPE svg
-                            PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
+                        <svg
                             height="43.3492mm"
                             style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
                             version="1.1" viewBox="0 0 258 258" width="43.3492mm" xml:space="preserve"
@@ -236,7 +59,7 @@
                                     ]]>
                                 </style>
                             </defs>
-                            <g id="Layer_x0020_1">
+                            <g id="facebook-icon">
                                 <g id="_444233528">
                                     <rect class="fil0" height="258" rx="28" ry="28" width="258" />
                                     <path class="fil1"
@@ -247,7 +70,7 @@
                             </g>
                         </svg>
                         <!-- Instagram -->
-                        <?xml version="1.0" ?><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <defs>
                                 <style>
@@ -271,7 +94,7 @@
                                 </radialGradient>
                             </defs>
                             <title />
-                            <g data-name="3-instagram" id="_3-instagram">
+                            <g data-name="3-instagram" id="instagram-icon">
                                 <rect class="cls-1" height="64" rx="11.2" ry="11.2"
                                     transform="translate(64 64) rotate(180)" width="64" />
                                 <path class="cls-2"
@@ -282,17 +105,15 @@
                             </g>
                         </svg>
                         <!-- Tiktok -->
-                        <?xml version="1.0" ?><svg xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" viewBox="0 0 24 24"
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="tiktok-icon" viewBox="0 0 24 24"
                             style="enable-background:new 0 0 24 24;" xml:space="preserve" width="512" height="512">
                             <path
                                 d="M22.465,9.866c-2.139,0-4.122-0.684-5.74-1.846v8.385c0,4.188-3.407,7.594-7.594,7.594c-1.618,0-3.119-0.51-4.352-1.376  c-1.958-1.375-3.242-3.649-3.242-6.218c0-4.188,3.407-7.595,7.595-7.595c0.348,0,0.688,0.029,1.023,0.074v0.977v3.235  c-0.324-0.101-0.666-0.16-1.023-0.16c-1.912,0-3.468,1.556-3.468,3.469c0,1.332,0.756,2.489,1.86,3.07  c0.481,0.253,1.028,0.398,1.609,0.398c1.868,0,3.392-1.486,3.462-3.338L12.598,0h4.126c0,0.358,0.035,0.707,0.097,1.047  c0.291,1.572,1.224,2.921,2.517,3.764c0.9,0.587,1.974,0.93,3.126,0.93V9.866z" />
                         </svg>
                         <!-- Youtube -->
-                        <?xml version="1.0" ?>
-                        <!DOCTYPE svg
-                            PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
-                            enable-background="new 0 0 128 128" id="Social_Icons" version="1.1" viewBox="0 0 128 128"
+                        <svg
+                            enable-background="new 0 0 128 128" id="youtube-icon" version="1.1" viewBox="0 0 128 128"
                             xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="_x34__stroke">
@@ -373,10 +194,8 @@
                         </svg>
 
                         <!-- Forma de pagamento - 03 Visa-->
-                        <?xml version="1.0" ?>
-                        <!DOCTYPE svg
-                            PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
-                            enable-background="new 0 0 64 64" height="auto" id="Layer_1" version="1.1"
+                        <svg
+                            enable-background="new 0 0 64 64" height="auto" id="visa-icon" version="1.1"
                             viewBox="0 0 64 64" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g>
@@ -476,10 +295,8 @@
                             </g>
                         </svg>
                         <!-- Forma de pagamento - 04 Paypal-->
-                        <?xml version="1.0" ?>
-                        <!DOCTYPE svg
-                            PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
-                            enable-background="new 0 0 64 64" height="auto" id="Layer_1" version="1.1"
+                        <svg
+                            enable-background="new 0 0 64 64" height="auto" id="paypal-icon" version="1.1"
                             viewBox="0 0 64 64" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g>
@@ -622,10 +439,8 @@
                             </g>
                         </svg>
                         <!-- Forma de pagamento - 05 Biticoin-->
-                        <?xml version="1.0" ?>
-                        <!DOCTYPE svg
-                            PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
-                            enable-background="new 0 0 64 64" height="auto" id="Layer_1" version="1.1"
+                        <svg
+                            enable-background="new 0 0 64 64" height="auto" id="bitcoin-icon" version="1.1"
                             viewBox="0 0 64 64" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g>
@@ -756,13 +571,3 @@
             </div>
         </div>
     </footer>
-
-    <!-- my Js -->
-    <script src="assets/Js/script.js"></script>
-    <!-- JavaScript do Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>

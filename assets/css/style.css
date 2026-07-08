@@ -380,7 +380,8 @@ a:hover {
 }
 #login
 {
-     background-color: rgba(146, 35, 35, 0.242);
+     
+    padding-bottom: 200px;
 }
 
 
