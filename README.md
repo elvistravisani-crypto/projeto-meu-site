@@ -4,7 +4,7 @@ Site de e-commerce fictício de hardwares, desenvolvido como projeto de estudo, 
 
 ## Sobre o projeto
 
-O Capivaras Hardwares é uma loja virtual voltada para venda de componentes de computador, como CPUs, placas gráficas, memórias e periféricos.
+O Capivaras Hardwares é uma loja virtual voltada para venda de componentes de computador, como CPUs, placas gráficas, memórias e periféricos. 
 
 ## Tecnologias utilizadas
 
@@ -26,6 +26,13 @@ O Capivaras Hardwares é uma loja virtual voltada para venda de componentes de c
 - Listagem de produtos por categoria
 - Página de login
 - Paleta de cores centralizada através de variáveis CSS
+
+## Durante o desenvolvimento
+
+- Ao copiar os ícones SVG prontos (formas de pagamento), eles vinham com atributos de `height` e `width` e outros atributos herdados dos softwares que os gerou no próprio código, tipo `height="auto"`. Isso pode gerar conflito com o CSS que já estava controlando o tamanho desses ícones. A solução foi remover esses atributos direto do código SVG e deixar o tamanho só por conta do CSS.
+
+![Print do erro](assets/img_readme/erro-svg-console.png)
+
 
 ## Autor
 
