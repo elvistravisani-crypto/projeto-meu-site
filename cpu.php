@@ -51,7 +51,7 @@
 
             </div>
             <div class="botao-comprar">
-              <a href="compra.html">COMPRAR</a>
+              <a href="compra.php">COMPRAR</a>
             </div>
 
           </div>

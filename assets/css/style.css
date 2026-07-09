@@ -3,11 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-  
-
-
+   
 }
 
 /* Classes Gerais */
@@ -18,13 +14,16 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+     list-style: none;
+    text-decoration: none;
   
 }
-
-main {
-    flex: 1;
+/* Paleta de Cores */
+:root 
+{
+    --cor-primaria: #121212;
+    --cor-secundaria: #1a1a1a;
 }
-
 
 h2 {
     margin-bottom: 30px;
@@ -35,9 +34,15 @@ h2 {
 p,
 h3,
 h4,
-h5 {
+h5 
+{
     font-family: Montserrat, sans-serif;
 
+}
+/* Inicio Main */
+
+main {
+    flex: 1;
 }
 
 ul {
@@ -49,17 +54,20 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+#rodape .col-12 ul a:hover, 
+#cabecalho .nav-link:hover,
+#cabecalho .dropdown-item:hover,
+.botao-comprar a:hover,
+.botao-adicionar a:hover
+{
     text-decoration: underline;
-    color: yellow !important;
-}
+    color: yellow;
+}/* Apliquei essas regras específicas pra os icones envolvidos com 'a' n as herdem */
 
 /* Inicio Cabeçalho */
-#cabecalho .navbar {
-    background-color: #121212 !important;
-    
-
-
+#cabecalho .navbar 
+{
+    background-color: var(--cor-primaria);
 }
 
 .logo {
@@ -93,8 +101,9 @@ a:hover {
 /* Final Cabeçalho */
 
 
-#banner {
-    background-color: rgb(23, 21, 21);
+#banner 
+{
+    background-color: var(--cor-secundaria);
 }
 
 #banner img {
@@ -163,7 +172,7 @@ a:hover {
 /* ÍNICIO Sobre */
 
 #sobre {
-    background-color: rgb(23, 21, 21);
+    background-color: var(--cor-secundaria);
 }
 
 #sobre h2 {
@@ -194,7 +203,7 @@ a:hover {
 #rodape {
     padding-top: 50px;
     margin-top: 100px;
-    background-color: rgb(23, 21, 21);
+    background-color: var(--cor-secundaria);
 }
 
 #rodape a {
@@ -241,7 +250,7 @@ a:hover {
 
 .produto
 {
-    background-color:#121212;
+    background-color: var(--cor-secundaria);
 }
 .imagem img
 {
@@ -321,17 +330,10 @@ a:hover {
     
 }
 
-/* !!!!!!!!hover extra no SVG das redes sociais, para não herdar os estilos antes adicionados no 'a'!!!!!!! */
-.redes-sociais a:hover {
-    color: transparent !important;
-    text-decoration: none !important;
-}
-
-
 /*>>>>>>>>>>>>> Estilização da página comprar <<<<<<<<<<<< */
 #comprar
 {
-    background-color: rgb(23, 21, 21);
+    background-color: var(--cor-secundaria);
 
 }
 #comprar .produto-comprar
@@ -542,28 +544,3 @@ a:hover {
     }
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* adsfddddddddddddddddddddddddd */
-
-/* adsfddddddddddddddddddddddddd */
