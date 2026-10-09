@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="pt-br">
 
@@ -29,7 +31,7 @@
 
 <body>
   <!-- Cabeçalho -->
-  <?php require 'includes/cabecalho.php'; ?>
+  <?php require 'cabecalho.php'; ?>
 
   <main id="produtos-cpu">
 
@@ -348,7 +350,7 @@
   </main>
 
   <!-- Rodapé -->
-<?php require 'includes/rodape.php'; ?>
+<?php require 'rodape.php'; ?>
 
   <!-- my Js -->
   <script src="assets/Js/script.js"></script>

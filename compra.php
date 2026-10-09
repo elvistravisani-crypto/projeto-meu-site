@@ -29,7 +29,7 @@
 
 <body>
     <!-- Cabeçalho -->
-    <?php require 'includes/cabecalho.php'; ?>
+    <?php require 'cabecalho.php'; ?>
 
     <main id="comprar">
         <div class="container">
@@ -206,7 +206,7 @@
             </div>
     </main>
     <!-- Rodapé -->
-    <?php require 'includes/rodape.php'; ?>
+    <?php require 'rodape.php'; ?>
 
     <!-- my Js -->
     <script src="assets/Js/script.js"></script>
